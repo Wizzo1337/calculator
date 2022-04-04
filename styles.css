@@ -1,6 +1,7 @@
 html {
 	font-size: 62.5%;
 	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 *, *::before, *::after {
@@ -16,7 +17,6 @@ html {
 	transform: translate(-50%, -50%);
 	width: 400px;
 	background: black;
-	border: 2px solid red;
 	padding: 40px;
 	padding-top: 75px;
 	border-radius: 25px;
@@ -31,7 +31,6 @@ html {
 	color: black;
 	text-align: right;
 	padding-right: 10px;
-	border: 2px solid green;
 }
 
 .calculator-buttons {
@@ -40,7 +39,6 @@ html {
 	flex-wrap: wrap;
 	padding: 15px;
 	padding-bottom: 5px;
-	border: 2px solid yellow
 }
 
 button {
@@ -60,4 +58,8 @@ button {
 	background: red;
 	color: white;
 	font-size: 3rem;
+}
+
+button:hover {
+	background-color: grey;
 }
